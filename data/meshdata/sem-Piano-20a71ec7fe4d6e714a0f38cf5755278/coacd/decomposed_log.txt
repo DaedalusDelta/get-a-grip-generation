@@ -1,0 +1,30 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Piano-20a71ec7fe4d6e714a0f38cf5755278/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Piano-20a71ec7fe4d6e714a0f38cf5755278/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Piano-20a71ec7fe4d6e714a0f38cf5755278/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660754312
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.4851s
+#Points: 29824
+#Triangles: 59648
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 8
+iter 4 ---- waiting pool: 12
+iter 5 ---- waiting pool: 8
+iter 6 ---- waiting pool: 2
+Compute Time: 69.3051s
+#Convex After Merge: 17

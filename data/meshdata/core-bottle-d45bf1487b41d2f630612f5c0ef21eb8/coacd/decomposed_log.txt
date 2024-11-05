@@ -1,0 +1,27 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/core/bottle-d45bf1487b41d2f630612f5c0ef21eb8/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/core/bottle-d45bf1487b41d2f630612f5c0ef21eb8/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/core/bottle-d45bf1487b41d2f630612f5c0ef21eb8/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660757895
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 0.821665s
+#Points: 11070
+#Triangles: 22136
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 4
+Compute Time: 17.632s
+#Convex After Merge: 6

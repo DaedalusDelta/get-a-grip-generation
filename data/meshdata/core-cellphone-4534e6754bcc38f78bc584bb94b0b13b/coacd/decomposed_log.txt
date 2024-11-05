@@ -1,0 +1,25 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/core/cellphone-4534e6754bcc38f78bc584bb94b0b13b/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/core/cellphone-4534e6754bcc38f78bc584bb94b0b13b/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/core/cellphone-4534e6754bcc38f78bc584bb94b0b13b/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660758997
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.03531s
+#Points: 31792
+#Triangles: 63580
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+Compute Time: 13.9704s
+#Convex After Merge: 2

@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/WallClock-d999e84be5ff346e983ec12a2b33f18b/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/WallClock-d999e84be5ff346e983ec12a2b33f18b/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/WallClock-d999e84be5ff346e983ec12a2b33f18b/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660755370
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 0.777883s
+#Points: 18536
+#Triangles: 37068
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.143411s
+#Convex After Merge: 1

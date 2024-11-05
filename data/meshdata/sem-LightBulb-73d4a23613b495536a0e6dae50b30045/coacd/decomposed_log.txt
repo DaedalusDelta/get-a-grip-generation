@@ -1,0 +1,25 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/LightBulb-73d4a23613b495536a0e6dae50b30045/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/LightBulb-73d4a23613b495536a0e6dae50b30045/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/LightBulb-73d4a23613b495536a0e6dae50b30045/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660755758
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 3.0663s
+#Points: 22916
+#Triangles: 45828
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+Compute Time: 13.8539s
+#Convex After Merge: 2

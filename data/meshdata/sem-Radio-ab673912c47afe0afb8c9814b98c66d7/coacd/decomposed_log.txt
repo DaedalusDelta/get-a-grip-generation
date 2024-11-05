@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Radio-ab673912c47afe0afb8c9814b98c66d7/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Radio-ab673912c47afe0afb8c9814b98c66d7/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Radio-ab673912c47afe0afb8c9814b98c66d7/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660755441
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 0.667822s
+#Points: 14846
+#Triangles: 29688
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.109677s
+#Convex After Merge: 1

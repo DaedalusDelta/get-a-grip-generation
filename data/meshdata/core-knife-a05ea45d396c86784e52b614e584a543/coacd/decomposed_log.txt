@@ -1,0 +1,26 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/core/knife-a05ea45d396c86784e52b614e584a543/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/core/knife-a05ea45d396c86784e52b614e584a543/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/core/knife-a05ea45d396c86784e52b614e584a543/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660760024
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 0.665335s
+#Points: 16896
+#Triangles: 33788
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 2
+Compute Time: 18.7221s
+#Convex After Merge: 3

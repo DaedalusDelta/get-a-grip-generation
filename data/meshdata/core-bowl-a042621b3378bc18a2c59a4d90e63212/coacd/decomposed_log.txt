@@ -1,0 +1,30 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/core/bowl-a042621b3378bc18a2c59a4d90e63212/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/core/bowl-a042621b3378bc18a2c59a4d90e63212/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/core/bowl-a042621b3378bc18a2c59a4d90e63212/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660758008
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 2.40495s
+#Points: 28426
+#Triangles: 56848
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 8
+iter 4 ---- waiting pool: 16
+iter 5 ---- waiting pool: 24
+iter 6 ---- waiting pool: 8
+Compute Time: 103.25s
+#Convex After Merge: 30

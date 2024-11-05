@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/mujoco/LEGO_Fusion_Set_Town_Master/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/mujoco/LEGO_Fusion_Set_Town_Master/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/mujoco/LEGO_Fusion_Set_Town_Master/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660756547
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.50742s
+#Points: 13786
+#Triangles: 27568
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.104852s
+#Convex After Merge: 1

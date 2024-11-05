@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/FileCabinet-976178c815f234b9df8fce61d01de43d/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/FileCabinet-976178c815f234b9df8fce61d01de43d/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/FileCabinet-976178c815f234b9df8fce61d01de43d/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660754958
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.46135s
+#Points: 35474
+#Triangles: 70944
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.264959s
+#Convex After Merge: 1

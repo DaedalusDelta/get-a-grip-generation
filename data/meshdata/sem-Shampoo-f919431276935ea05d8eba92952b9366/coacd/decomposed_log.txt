@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Shampoo-f919431276935ea05d8eba92952b9366/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Shampoo-f919431276935ea05d8eba92952b9366/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Shampoo-f919431276935ea05d8eba92952b9366/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660755607
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.04109s
+#Points: 11986
+#Triangles: 23968
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.101924s
+#Convex After Merge: 1

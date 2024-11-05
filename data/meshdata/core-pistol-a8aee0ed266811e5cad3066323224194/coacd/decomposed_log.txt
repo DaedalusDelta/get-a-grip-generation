@@ -1,0 +1,30 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/core/pistol-a8aee0ed266811e5cad3066323224194/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/core/pistol-a8aee0ed266811e5cad3066323224194/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/core/pistol-a8aee0ed266811e5cad3066323224194/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660760819
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.96425s
+#Points: 41434
+#Triangles: 82872
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 8
+iter 4 ---- waiting pool: 6
+iter 5 ---- waiting pool: 6
+iter 6 ---- waiting pool: 2
+Compute Time: 86.0696s
+#Convex After Merge: 13

@@ -1,0 +1,101 @@
+<robot name="root">
+  <link name="link_coacd_convex_piece_0">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="6.88E-02" ixy="5.01E-03" ixz="3.30E-03" iyy="2.63E-02" iyz="-2.42E-02" izz="5.86E-02"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_0.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+      <material name="">
+        <color rgba="7.50E-01 7.50E-01 7.50E-01 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_0.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="link_coacd_convex_piece_1">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="6.56E-02" ixy="-5.77E-03" ixz="3.35E-03" iyy="2.52E-02" iyz="2.34E-02" izz="5.65E-02"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_1.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+      <material name="">
+        <color rgba="7.50E-01 7.50E-01 7.50E-01 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_1.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="link_coacd_convex_piece_1_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="link_coacd_convex_piece_0"/>
+    <child link="link_coacd_convex_piece_1"/>
+  </joint>
+  <link name="link_coacd_convex_piece_2">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="8.28E-02" ixy="-6.63E-03" ixz="6.58E-03" iyy="4.44E-02" iyz="2.55E-02" izz="6.60E-02"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_2.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+      <material name="">
+        <color rgba="7.50E-01 7.50E-01 7.50E-01 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_2.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="link_coacd_convex_piece_2_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="link_coacd_convex_piece_1"/>
+    <child link="link_coacd_convex_piece_2"/>
+  </joint>
+  <link name="link_coacd_convex_piece_3">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="8.45E-02" ixy="5.19E-03" ixz="5.55E-03" iyy="4.53E-02" iyz="-2.60E-02" izz="6.77E-02"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_3.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+      <material name="">
+        <color rgba="7.50E-01 7.50E-01 7.50E-01 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="coacd_convex_piece_3.obj" scale="1.0000E+00 1.0000E+00 1.0000E+00"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="link_coacd_convex_piece_3_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="link_coacd_convex_piece_2"/>
+    <child link="link_coacd_convex_piece_3"/>
+  </joint>
+</robot>

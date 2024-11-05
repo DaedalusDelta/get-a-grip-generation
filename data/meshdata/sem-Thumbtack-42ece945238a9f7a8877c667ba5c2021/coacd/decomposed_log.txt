@@ -1,0 +1,25 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Thumbtack-42ece945238a9f7a8877c667ba5c2021/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Thumbtack-42ece945238a9f7a8877c667ba5c2021/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Thumbtack-42ece945238a9f7a8877c667ba5c2021/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660754837
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.21119s
+#Points: 18622
+#Triangles: 37240
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+Compute Time: 11.1619s
+#Convex After Merge: 2

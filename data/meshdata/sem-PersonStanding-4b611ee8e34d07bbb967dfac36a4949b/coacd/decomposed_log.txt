@@ -1,0 +1,30 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/PersonStanding-4b611ee8e34d07bbb967dfac36a4949b/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/PersonStanding-4b611ee8e34d07bbb967dfac36a4949b/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/PersonStanding-4b611ee8e34d07bbb967dfac36a4949b/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660752701
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.15281s
+#Points: 12031
+#Triangles: 24058
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 8
+iter 4 ---- waiting pool: 8
+iter 5 ---- waiting pool: 2
+iter 6 ---- waiting pool: 2
+Compute Time: 35.8737s
+#Convex After Merge: 14

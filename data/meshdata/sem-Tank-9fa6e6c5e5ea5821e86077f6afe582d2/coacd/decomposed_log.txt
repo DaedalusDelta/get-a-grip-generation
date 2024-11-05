@@ -1,0 +1,29 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Tank-9fa6e6c5e5ea5821e86077f6afe582d2/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Tank-9fa6e6c5e5ea5821e86077f6afe582d2/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Tank-9fa6e6c5e5ea5821e86077f6afe582d2/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660754933
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.94873s
+#Points: 16662
+#Triangles: 33368
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 8
+iter 4 ---- waiting pool: 8
+iter 5 ---- waiting pool: 6
+Compute Time: 56.8798s
+#Convex After Merge: 15

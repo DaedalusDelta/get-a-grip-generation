@@ -1,0 +1,26 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/VideoGameController-bde4419d49641d1a4452974e2a3ce49e/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/VideoGameController-bde4419d49641d1a4452974e2a3ce49e/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/VideoGameController-bde4419d49641d1a4452974e2a3ce49e/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660752612
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.12573s
+#Points: 17304
+#Triangles: 34604
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 2
+Compute Time: 11.7667s
+#Convex After Merge: 3

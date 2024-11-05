@@ -1,0 +1,28 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/BeanBag-7263fe53bb4601efa37f3fc191551700/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/BeanBag-7263fe53bb4601efa37f3fc191551700/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/BeanBag-7263fe53bb4601efa37f3fc191551700/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660755453
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.92216s
+#Points: 34106
+#Triangles: 68208
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 4
+iter 3 ---- waiting pool: 6
+iter 4 ---- waiting pool: 6
+Compute Time: 59.2233s
+#Convex After Merge: 10

@@ -1,0 +1,24 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/FoodItem-16d2017606945083324387582810ec10/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/FoodItem-16d2017606945083324387582810ec10/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/FoodItem-16d2017606945083324387582810ec10/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660753020
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 0.961096s
+#Points: 28426
+#Triangles: 56848
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+Compute Time: 0.096604s
+#Convex After Merge: 1

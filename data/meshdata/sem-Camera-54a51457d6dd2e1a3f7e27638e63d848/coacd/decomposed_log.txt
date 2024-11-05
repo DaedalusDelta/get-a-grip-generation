@@ -1,0 +1,27 @@
+ - Config
+	Input Path:                        /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Camera-54a51457d6dd2e1a3f7e27638e63d848/model.obj
+	Output Path:                       /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Camera-54a51457d6dd2e1a3f7e27638e63d848/coacd/decomposed.obj
+	Log Path:                          /home/ruichengwang/code/mesh_process/data/meshdatav3/sem/Camera-54a51457d6dd2e1a3f7e27638e63d848/coacd/decomposed_log.txt
+	Terminal Threshold:                0.08
+	MCTS Node Number:                  20
+	MCTS Iteration:                    150
+	MCTS Max Depth:                    3
+	Manifold Preprocess (ON/OFF):      1
+	Preprocess Resolution:             10000
+	Merge Postprocess (ON/OFF):        1
+	PCA (ON/OFF):                      0
+	k for Rv:                          0.3
+	Hausdorff Sampling Resolution:     2000
+	Random Seed:                       1660753164
+ - Pre-processing (manifold)
+	resolution: 10000
+Manifold time: 1.46575s
+#Points: 21270
+#Triangles: 42536
+ - Decomposition (MCTS)
+iter 0 ---- waiting pool: 1
+iter 1 ---- waiting pool: 2
+iter 2 ---- waiting pool: 2
+iter 3 ---- waiting pool: 2
+Compute Time: 13.5858s
+#Convex After Merge: 4
